@@ -1,16 +1,17 @@
 #!/usr/bin/env python3
 
 def greet_programmer():
-    pass
+    print(f"Hello, programmer!") 
 
-def greet(name):
-    pass
+def greet(name="francis"):
+    print(f"Hello {name}")
 
 def greet_with_default(name="programmer"):
-    pass
+    print("Hello {name}")
 
 def add(num1, num2):
-    pass
+    return num1 +num2
 
 def halve(number):
-    pass
+    new_number=number/2
+    print(new_number)
